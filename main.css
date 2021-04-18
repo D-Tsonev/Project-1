@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+  width: 600px;
+  height: 600px;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  width: 10%;
+  height: 10%;
+  border: 1px solid rgb(1, 206, 1);
+}
+.alien {
+  background-image: url(./images/Manny_full_size.png);
+  background-size: contain;
+}
+
+.player {
+  background-image: url(./images/Scrat1.png);
+  background-size: contain;
+}
+
+.acorn {
+  background-image: url(./images/download.jpeg);
+  background-size: contain;
+}
