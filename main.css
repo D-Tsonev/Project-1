@@ -39,3 +39,12 @@ body {
   background-image: url(./images/download.jpeg);
   background-size: contain;
 }
+
+.ice {
+  background-image: url(./images/ice.jpg);
+  background-size: contain;
+}
+.explosion {
+  background-image: url(./images/d7ac4f38b77abe73165d85edf2cbdb9e_w200.gif);
+  background-size: contain;
+}
