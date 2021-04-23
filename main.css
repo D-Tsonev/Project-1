@@ -3,7 +3,7 @@
 }
 
 @font-face {
-  font-family: ice age font;
+  font-family: "ice age font";
   src: url(./font/ICE_AGE.ttf);
 }
 
@@ -69,7 +69,7 @@ body {
 .start {
   transform: translate(0px, -400px);
   font-family: "ice age font", sans-serif;
-  font-size: 200px;
+  font-size: 150;
   background-color: Transparent;
   background-repeat: no-repeat;
   border: none;
