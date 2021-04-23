@@ -9,21 +9,25 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 0;
+  background-image: url(./images/background.jpg);
+  font-family: "ice age font", sans-serif;
+  font-size: 30px;
 }
 
 .grid {
   display: flex;
   flex-direction: row;
-  border: 1px solid grey;
+  border: 0px solid grey;
   width: 600px;
   height: 600px;
   flex-wrap: wrap;
+  /* margin-left: 25%; */
 }
 
 .grid div {
   width: 10%;
   height: 10%;
-  border: 1px solid rgb(1, 206, 1);
+  /* border: 1px solid rgb(1, 206, 1); */
 }
 .alien {
   background-image: url(./images/Manny_full_size.png);
@@ -36,15 +40,60 @@ body {
 }
 
 .acorn {
-  background-image: url(./images/download.jpeg);
+  background-image: url(./images/acorn.png);
   background-size: contain;
 }
-
 .ice {
-  background-image: url(./images/ice.jpg);
+  background-image: url(./images/ice.png);
   background-size: contain;
 }
 .explosion {
   background-image: url(./images/d7ac4f38b77abe73165d85edf2cbdb9e_w200.gif);
   background-size: contain;
+}
+.smash {
+  background-image: url(./images/smash.gif);
+  background-size: contain;
+}
+.count {
+  display: none;
+  font-size: 300px;
+  transform: translate(0px, -400px);
+  font-family: "ice age font", sans-serif;
+}
+.start {
+  transform: translate(0px, -400px);
+  font-family: "ice age font", sans-serif;
+  font-size: 200px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.reset {
+  font-family: "ice age font", sans-serif;
+  font-size: 70px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+p {
+  font-size: 40px;
+  margin-bottom: 0%;
+  display: inline-block;
+}
+section {
+  display: flex;
+
+  width: 600px;
+  align-items: center;
+  justify-content: space-between;
+}
+.gameOver {
+  font-size: 100px;
+  position: absolute;
+  margin-bottom: 300px;
 }
