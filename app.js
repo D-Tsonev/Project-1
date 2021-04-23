@@ -146,13 +146,13 @@ function startGame() {
         clearInterval(intervalIdIce)
       }
 
-    }, 800)
+    }, 1000)
   }
   // Alians shooting
   const intervalbombs = setInterval(() => {
     bombs()
 
-  }, 800)
+  }, 1000)
 
 
   // Alians moves 
