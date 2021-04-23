@@ -63,11 +63,11 @@ body {
 .count {
   display: none;
   font-size: 300px;
-  transform: translate(0px, -400px);
+  transform: translate(0px, -350px);
   font-family: "ice age font", sans-serif;
 }
 .start {
-  transform: translate(0px, -400px);
+  transform: translate(0px, -350px);
   font-family: "ice age font", sans-serif;
   font-size: 150px;
   background-color: Transparent;
