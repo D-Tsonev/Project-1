@@ -3,8 +3,8 @@
 }
 
 @font-face {
-  font-family: "ice age font";
-  src: url("http://fonts.cdnfonts.com/css/ice-age");
+  font-family: ice age font;
+  src: url(./font/ICE_AGE.ttf);
 }
 
 body {
@@ -77,7 +77,7 @@ body {
   overflow: hidden;
 }
 .reset {
-  font-family: "ice age font", sans-serif;
+  font-family: ice age font, sans-serif;
   font-size: 70px;
   background-color: Transparent;
   background-repeat: no-repeat;
