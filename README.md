@@ -6,27 +6,27 @@
 
 ## Overview
 
-Space Invaders/ Ice Age Wars is my first ever front-end development project, produced as part of General Assembly's Immersive Software Engineering Bootcamp.
+Space Invaders/Ice Age Wars is my first ever front-end development project, produced as part of General Assembly's Immersive Software Engineering Bootcamp.
 
-My task was to create a grid-based game rendered in the browser that utilised 'vanilla' JavaScript, HTML and CSS.
+My task was to create a grid-based game rendered in the browser that utilised Vanilla JavaScript, HTML and CSS.
 
 Given a selection of classic arcade games to choose from, I opted to build my take on _Space Invaders_. The theme was inspired by the _Ice Age_ movie.
 
 The project was mainly to consolidate my beginners' knowledge of JavaScript and interacting with the DOM, but I worked hard to make it a fun experience to play.
 
-It was an independent project built in a week and is both the first real game I have built and the first instance applying real-world-type logic with vanilla JavaScript.
+It was an independent project built in a week and is both the first real game I have built and the first instance applying real-world-type logic with Vanilla JavaScript.
 
 You can play the game [here](https://d-tsonev.github.io/Project-1/)
 
 ## The Brief
 
-- **Render a game in the browser**
-- **Design logic for winning & visually display which player won**
-- **Include separate HTML / CSS / JavaScript files**
-- Stick with **KISS (Keep It Simple Stupid)** and **DRY (Don't Repeat Yourself)** principles
-- Use **Javascript** for **DOM manipulation**
-- **Deploy your game online**, where the rest of the world can access it
-- Use **semantic markup** for HTML and CSS (adhere to best practices)
+- **Render a game in the browser**.
+- **Design logic for winning & visually display which player won**.
+- **Include separate HTML / CSS / JavaScript files**.
+- Stick with **KISS (Keep It Simple Stupid)** and **DRY (Don't Repeat Yourself)** principles.
+- Use **Javascript** for **DOM manipulation**.
+- **Deploy your game online**, where the rest of the world can access it.
+- Use **semantic markup** for HTML and CSS (adhere to best practices).
 
 ## The Technologies used
 
@@ -38,7 +38,6 @@ You can play the game [here](https://d-tsonev.github.io/Project-1/)
 - **Photoshop**
 - **GarageBand**
 
-<h2>Overview</h2>
 
 <p>Link to <a href="https://d-tsonev.github.io/Project-1/">Ice Age Wars</a> is here<p>
 
@@ -50,7 +49,7 @@ And a live demo of me playing badly :
 
 <h2>Introduction</h2>
 
-The aim of the game has remained the same: for the user to shoot the invading mammoths armada before it reaches dangerously close to the player.
+The game’s aim has remained the same: for the user to shoot the invading mammoths armada before it reaches dangerously close to the player.
 
 As the Mammoths fleet don't come in peace and periodically drops ice bocks towards the Player.
 
@@ -68,7 +67,7 @@ The game aims is to achieve the highest score before the Mammoths reach the spac
 
 ### The Grid
 
-The game is built using a grid 9 x 9 square is created using JavaScript. HTML divs are created using a for loop and appended as children of the grid.
+The game is built using a grid 9 x 9 square, which is created using JavaScript. HTML divs are created using a for loop and appended as children of the grid.
 
 ```js
 const width = 9;
@@ -89,13 +88,13 @@ for (let i = 0; i < width ** 2; i++) {
 
 ### Opponent Movement
 
-Enemy ships are defined as an array of numbers which corresponds to their position on the grid:
+Enemy ships are defined as an array of numbers which correspond to their position on the grid:
 
 <code>
 let aliensPosition = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33]
 </code>
 
-They are then added to the grid using a forEach statement
+They are then added to the grid using a forEach statement.
 
 ```js
 aliensPosition.forEach((indexNumber) => {
@@ -129,14 +128,14 @@ function movingAliens() {
 
 ```
 
-### Opponent trowing bombs
+### Opponent throwing bombs
 
-Mammoths are dropping bombs/ice cubes every 1000 milliseconds using a setInterval. The firing position is randomly determined using `Math.random` based on the position of the Mammoths that are furthest forward.
-If a bomb hit the player then he loses a life.
+Mammoths are dropping ice cubes every 1000 milliseconds using a setInterval. The firing position is randomly determined using `Math.random` based on the position of the Mammoths that are furthest forward.
+If a bomb hits the player then he loses a life.
 
-Below, a `setInterval` is declared. It contains a variable that finds the front Mamuths of my array of aliens.
+Below, a `setInterval` is declared. It contains a variable that finds the front Mamuths of my array of mammoths.
 
-The `ice` CSS class is added to the cell in front of the random Mammoths, a sound plays and another setInterval is declared that adds and removes the CSS class until there is a collision with the player or the enemy laser reaches the end of the grid. If the enemy laser collides with the player, the player is replaced by a smash CSS class and the player lose one of his 3 lives., then the player is positioned where he starts , in the middle.
+The `ice` CSS class is added to the cell in front of the random Mammoths, a sound plays and another setInterval is declared that adds and removes the CSS class until there is a collision with the player or the enemy laser reaches the end of the grid. If the enemy laser collides with the player, the player is replaced by a smash CSS class and the player loses one of his 3 lives, then the player is positioned where he starts, in the middle.
 
 ```js
 
@@ -267,8 +266,7 @@ When the up arrow is called, the player shoots acorns. A variable is assigned to
 
 ```
 
-<h1>Future features</h1>
-<h3>The three main improvements I'd like to make are as follows:</h3>
+<h1>The three main improvements I'd like to make are as follows:</h1>
 
 -Adding a leaderboard using localStorage to keep a track of high scores.<br>
 -Make the game responsive and fully functioning on mobile and tablet.<br>
@@ -281,7 +279,7 @@ When the up arrow is called, the player shoots acorns. A variable is assigned to
 
 ## Victories
 
-- I found this project to be very helpful in developing my experience with problem-solving as I initially had trouble separating the idea of actually moving the grid cells and adding classes to them instead to give the appearance of movement. This solidified my understanding of vanilla JavaScript and gave me a chance to grow confident in using methods and functions to manipulate the user's experience.
+- I found this project to be very helpful in developing my experience with problem-solving as I initially had trouble separating the idea of actually moving the grid cells and adding classes to them instead to give the appearance of movement. This solidified my understanding of Vanilla JavaScript and gave me a chance to grow confident in using methods and functions to manipulate the user's experience.
 
 - I'm pleased with the look and feel of the game in terms of its appearance and the sounds and the satisfaction of removing Mammoths.
 
