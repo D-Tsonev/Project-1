@@ -63,7 +63,22 @@ Once the player has won or died, the player can choose to play again.
 
 The game aims is to achieve the highest score before the Mammoths reach the spaceship.
 
-## The Approach
+## General Approach & Planning
+
+* Made sure to spend plenty of time planning before I started coding.
+* Made sure I understood all of the rules of the game.
+* Made a checklist of all the features I wanted to add to the game.
+* Broke the project down into different components (data, presentation, views, style, DOM manipulation) and brainstormed each component individually.
+* Consulted documentation resources like MDN and W3Schools to better understand what I was getting into.
+* Used Development Tools like console.log, inspector, and alert statements to debug and solve problems.
+* Commited early and often.
+* Wrote lots of throw-away code that I knew I would have to remove later.
+* Created temporary elements (buttons, links, etc) that triggered events until the real data was available.
+* Refactored my code as I went when things got more complicated.
+* Made sure I had a good idea of what my MVP was and only added extra features once I achieved it.
+* Did just enough styling to get started then, once I had my MVP, polished up the styling.
+* Big game board to play on made up of a 25 x 25 grid.
+
 
 ### The Grid
 
